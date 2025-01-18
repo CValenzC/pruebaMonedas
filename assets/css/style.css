@@ -1,0 +1,85 @@
+/* General */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1e1e2f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+  background-color: #2e2e3e;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Estilo del título */
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Caja del conversor */
+.converter-box {
+  background-color: #3e3e50;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.converter-box input, 
+.converter-box select, 
+.converter-box button {
+  display: block;
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.converter-box input {
+  width: 100%;
+}
+
+.converter-box select {
+  width: 100%;
+}
+
+.converter-box button {
+  background-color: #00b4ff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.converter-box button:hover {
+  background-color: #009bd1;
+}
+
+.converter-box p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Caja del gráfico */
+.chart-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  color: #000;
+}
+
+canvas {
+  width: 100%;
+  max-height: 300px;
+}
